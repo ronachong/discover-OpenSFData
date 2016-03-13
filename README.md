@@ -46,3 +46,45 @@ In today's project you have a choice about how to handle the data: dynamically o
 
 Clearly the process for dealing with static data is a lot less involved, so if you are considering today's time constraints, you will most likely want to handle the data in a static manner. If you feel very advanced and would like to take on a greater challenge, you could approach the data in a dynamic manner.
 
+## Project Tasks
+### 0. Grab your dataset from SF Open Data
+
+As the title says!
+
+You can either fetch the data from SF Open Data using the SODA API, or, (if you are visualizing static data, which you most likely are) simply use the download button to download the data onto your local server. 
+
+The SF OpenData site: https://data.sfgov.org/
+
+If you plan on fetching data using SODA:
+DataSF Developer Resources: https://data.sfgov.org/developers
+Socrata's guide to using its API: https://dev.socrata.com/consumers/getting-started.html
+*Note that you can use any language you prefer to fetch the data! For Holberton students, you've had experience grabbing data from an API with Go and Javascript, but now you can use whatever language you prefer (Javascript, Python, Go, Ruby...). Just find the appropriate documentation.
+Note also that the "software developer kits" provided by SODA are not super polished and it's up to you as to whether you want to use them or code your http requests from scratch.
+Mark Lee's example of pulling data from SODA: http://themarklee.com/2014/04/03/pulling-json-data-open-data-api/
+
+### 1. Compute the data
+Here, when we say "compute", we really mean 2 things:
+
+1) parse the data you've pulled to isolate the values you need for your Javascript function
+
+2) transform the data you've parsed into a form that your Javascript is able to process (if need be)
+
+Again, feel free to use whatever language you feel like for this part of the process.
+
+any resources to share here? I feel like this is mostly algorithmic stuff.
+probably links to methods to convert data to javascript or json stuff
+
+### 2. Write your Javascript
+In most cases, you won't have too much code to write other than the code already provided by your library.
+
+But--of course--you will have to input your data (pass your data as parameters).
+
+If you're trying to use data dynamically, you might have to come up with a function to request the data from the web server every time the page loads.
+
+If you're dealing with static data, then all you have to do is import your data (now that it's been computed to a form usable by Javascript)... or simply put it in manually!
+
+
+
+### 3. Write your HTML and CSS
+
+Use your knowledge of HTML and CSS to put together a website which will house your nicely visualized data. You can use Bootstrap if you like, or code from scratch.
