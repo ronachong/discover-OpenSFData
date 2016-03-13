@@ -42,3 +42,7 @@ We often use the terms "static" and "dynamic" when it comes to websites. A stati
 
 In today's project you have a choice about how to handle the data: dynamically or statically. For instance, if you wanted to have a bar chart of the number of tech workers relative to other workers living in San Francisco, and you wanted this chart to always pull from the latest data on SF Open Data, you'd want your code to fetch, parse, and compute the data every time your visualization is rendered. On the other hand, if you wanted bar charts that showed the ratio of workers at specific points in time (e.g., 5 years ago compared to now), there's really no point fetching, parsing and computing the data every time your visualization is rendered. You just need to download or pull the data to your local server, compute the numbers you want, and add it to your Javascript one time. This means that you are working with a static set of data.
 
+![alt "diagram of data handling process"](https://raw.githubusercontent.com/ronachong/discover-SFOpenData/master/static_vs_dynamic_data_handling.png)
+
+Clearly the process for dealing with static data is a lot less involved, so if you are considering today's time constraints, you will most likely want to handle the data in a static manner. If you feel very advanced and would like to take on a greater challenge, you could approach the data in a dynamic manner.
+
