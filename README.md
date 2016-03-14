@@ -65,9 +65,8 @@ If you plan on fetching data using SODA:
 ### 1. Compute the data
 Here, when we say "compute", we really mean 2 things:
 
-1) parse the data you've pulled to isolate the values you need for your Javascript function
-
-2) transform the data you've parsed into a form that your Javascript is able to process (if need be)
+  1. parse the data you've pulled to isolate the values you need for your Javascript function
+  2. transform the data you've parsed into a form that your Javascript is able to process (if need be)
 
 Again, feel free to use whatever language you feel like for this part of the process.
 
