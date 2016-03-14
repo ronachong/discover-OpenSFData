@@ -70,8 +70,6 @@ Here, when we say "compute", we really mean 2 things:
 
 Again, feel free to use whatever language you feel like for this part of the process.
 
-any resources to share here? I feel like this is mostly algorithmic stuff.
-probably links to methods to convert data to javascript or json stuff
 
 ### 2. Write your Javascript
 In most cases, you won't have too much code to write other than the code already provided by your library.
