@@ -56,11 +56,11 @@ You can either fetch the data from SF Open Data using the SODA API, or, (if you 
 The SF OpenData site: https://data.sfgov.org/
 
 If you plan on fetching data using SODA:
-DataSF Developer Resources: https://data.sfgov.org/developers
-Socrata's guide to using its API: https://dev.socrata.com/consumers/getting-started.html
-*Note that you can use any language you prefer to fetch the data! For Holberton students, you've had experience grabbing data from an API with Go and Javascript, but now you can use whatever language you prefer (Javascript, Python, Go, Ruby...). Just find the appropriate documentation.
-Note also that the "software developer kits" provided by SODA are not super polished and it's up to you as to whether you want to use them or code your http requests from scratch.
-Mark Lee's example of pulling data from SODA: http://themarklee.com/2014/04/03/pulling-json-data-open-data-api/
++ DataSF Developer Resources: https://data.sfgov.org/developers
++ Socrata's guide to using its API: https://dev.socrata.com/consumers/getting-started.html
+  * Note that you can use any language you prefer to fetch the data! For Holberton students, you've had experience grabbing data from an API with Go and Javascript, but now you can use whatever language you prefer (Javascript, Python, Go, Ruby...). Just find the appropriate documentation.
+  * Note also that the "software developer kits" provided by SODA are not super polished and it's up to you as to whether you want to use them or code your http requests from scratch.
++ Mark Lee's example of pulling data from SODA: http://themarklee.com/2014/04/03/pulling-json-data-open-data-api/
 
 ### 1. Compute the data
 Here, when we say "compute", we really mean 2 things:
